@@ -34,34 +34,35 @@ export const ModeSelector: React.FC<ModeSelectorProps> = ({ currentMode, onSelec
   };
 
   const modes = [
-    {
-      id: OracleMode.MATERIALIST,
-      label: 'The Materialist',
-      icon: Wrench,
-      desc: MODE_DESCRIPTIONS.MATERIALIST,
-      color: 'text-blue-400',
-    },
-    {
-      id: OracleMode.SCHOLAR,
-      label: 'The Scholar',
-      icon: BookOpen,
-      desc: MODE_DESCRIPTIONS.SCHOLAR,
-      color: 'text-purple-400',
-    },
-    {
-      id: OracleMode.DIRECTOR,
-      label: 'The Director',
-      icon: Video,
-      desc: MODE_DESCRIPTIONS.DIRECTOR,
-      color: 'text-emerald-400',
-    },
-    {
-      id: OracleMode.PERSONA,
-      label: 'The Persona',
-      icon: User,
-      desc: MODE_DESCRIPTIONS.PERSONA,
-      color: 'text-film-gold',
-    },
+  {
+    id: OracleMode.MATERIALIST,
+    label: 'The Materialist',
+    icon: Wrench,
+    desc: MODE_DESCRIPTIONS.MATERIALIST,
+    color: "border-slate-500 bg-slate-500/10 text-slate-200 shadow-[0_0_15px_rgba(112,128,144,0.3)]",
+  },
+  {
+    id: OracleMode.SCHOLAR,
+    label: 'The Scholar',
+    icon: BookOpen,
+    desc: MODE_DESCRIPTIONS.SCHOLAR,
+    color: "border-yellow-600 bg-yellow-600/10 text-yellow-200 shadow-[0_0_15px_rgba(212,175,55,0.4)]",
+  },
+  {
+    id: OracleMode.DIRECTOR,
+    label: 'The Director',
+    icon: Video,
+    desc: MODE_DESCRIPTIONS.DIRECTOR,
+    color: "border-red-800 bg-red-800/10 text-red-200 shadow-[0_0_15px_rgba(139,0,0,0.4)]",
+  },
+  {
+    id: OracleMode.PERSONA,
+    label: 'The Persona',
+    icon: User,
+    desc: MODE_DESCRIPTIONS.PERSONA,
+    color: "border-amber-900 bg-amber-900/10 text-amber-200 shadow-[0_0_15px_rgba(112,66,20,0.4)]",
+  },
+];
   ];
 
   return (
