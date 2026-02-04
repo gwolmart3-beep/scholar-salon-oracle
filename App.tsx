@@ -10,7 +10,8 @@ function App() {
   const [state, setState] = useState<AppState>({
     messages: [{ 
       role: 'assistant', 
-      content: "Greetings, Scholar. The archive is open. Which lens shall we use to view history today?" 
+      content: "Greetings, Scholar. The archive is open. Which lens shall we use to view film history today?",
+timestamp: new Date().toISOString() 
     }],
     currentMode: OracleMode.SCHOLAR,
     isStreaming: false,
