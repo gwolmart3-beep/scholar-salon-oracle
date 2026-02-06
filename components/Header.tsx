@@ -10,7 +10,7 @@ export const Header: React.FC = () => {
             <Film size={20} strokeWidth={2.5} />
           </div>
           <div>
-            <h1 className="font-serif text-lg md:text-xl font-bold text-film-text tracking-wide">
+            <h1 className="text-xl font-bold font-['Cinzel'] tracking-tight text-film-white">
               Film History Oracle
             </h1>
             <p className="text-[10px] uppercase tracking-widest text-film-gold font-medium">
@@ -19,9 +19,9 @@ export const Header: React.FC = () => {
           </div>
         </div>
         <div className="hidden md:block">
-            <span className="text-film-muted text-xs font-serif italic">
-                "The cinema is truth 24 times a second."
-            </span>
+          <span className="text-film-muted text-xs font-serif italic">
+            "The cinema is truth 24 times a second."
+          </span>
         </div>
       </div>
     </header>
